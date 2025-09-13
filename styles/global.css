@@ -38,12 +38,4 @@ button {
   font: inherit;
 }
 
-.section__title {
-  font-size: 40px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
 
-.section {
-  padding: 0 24px;
-}
