@@ -1,6 +1,7 @@
 /* место для вашего кода */
 
 /* header */
+
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
@@ -40,6 +41,7 @@
 }
 
 /* cover */
+
 .section-cover {
   position: relative;
   z-index: -2;
@@ -171,6 +173,7 @@
 }
 
 /* about */
+
 .section-about {
   display: grid;
   grid-template-columns: 334px auto;

@@ -1,99 +1,144 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="stylesheet" href="./styles/global.css">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./fonts/fonts.css">
-  </head>
-  <body>
-    <header class="header">
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item"><a href="" class="nav-link active">главная</a></li>
-          <li class="nav-item"><a href="" class="nav-link">посмотреть лоты</a></li>
-          <li class="nav-item"><a href="" class="nav-link">об аукционе</a></li>
-        </ul>
-      </nav>
-      <a class="logo-link" href=""><img src="./images/logo-black.svg" alt="логотип" class="logo__picture"></a>
-      <adress class="adress">
-        <div class="adress__phone"><a href="tel:+99995555555" class="adress__phone-link">+9 999 555 5555</a></div>
-        <div class="adress__mail"><a href="mailto:info@sobaka.ge" class="adress__phone-mail">info@sobaka.ge</a></div>
-        <div class="adress__location">наб. Принсенграхт 263- 265, Амстердам</div> 
-      </adress>
-    </header>
-    <main class="main">
-      <section class="section section-cover">
-        <div class="overlay"></div>
-        <h1 class="cover-title">
-          <span class="cover-title__start">оно</span>
-          <span class="cover-title__center">теб<span class="cover-title__no-spacing">е</span></span> 
-          <span class="cover-title__end">над<span class="cover-title__no-spacing">о</span></span>  
-        </h1>
-        <div class="cover__wrapper">
-          <p class="cover-description">Аукцион вещей, в которые никто не верил</p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
+  <link rel="stylesheet" href="./styles/global.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./fonts/fonts.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li>
+          <a href="" class="nav-link active">главная</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">посмотреть лоты</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">об аукционе</a>
+        </li>
+      </ul>
+    </nav>
+    <a class="logo-link" href="#">
+      <img src="./images/logo-black.svg" alt="логотип" class="logo__picture">
+    </a>
+    <adress class="adress">
+      <div>
+        <a href="tel:+99995555555">+9 999 555 5555</a>
+      </div>
+      <div>
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+      </div>
+      <div>наб. Принсенграхт 263- 265, Амстердам</div>
+    </adress>
+  </header>
+  <main class="main">
+    <section class="section-cover">
+      <div class="overlay"></div>
+      <h1 class="cover-title">
+        <span>оно</span>
+        <span class="cover-title__center">теб<span class="cover-title__no-spacing">е</span></span>
+        <span class="cover-title__end">над<span class="cover-title__no-spacing">о</span></span>
+      </h1>
+      <div class="cover__wrapper">
+        <p class="cover-description">Аукцион вещей, в которые никто не верил</p>
         <button class="cover-button">Сделать ставку</button>
       </div>
-        
-      </section>
-      <section class="section section-lots">
-        <div class="lots__wrapper">
-          <h2 class="section__title lots__title">Лоты</h2>
-          <ul class="lots-list">
-            <li class="lots-list__card lots-list__card-film">
-              <div class="overlay"></div>
-              <a class="card__title">Фильм режиссёра, который бросил киношколу</a>
-              <article class="card__description">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</article>
-            </li>
-            <li class="lots-list__card lots-list__card-book">
-              <div class="overlay"></div>
-              <a class="card__title">Книга, где описан один скучный день из жизни рекламного агента</a>
-              <article class="card__description">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</article>
-            </li>
-            <li class="lots-list__card lots-list__card-paint">
-              <div class="overlay"></div>
-              <a class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</a>
-              <article class="card__description">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</article>
-            </li>
-          </ul>
-          <a href="" class="section-lots__more">посмотреть больше</a>
-        </div>
-      </section>
-      <section class="section section-about">
-        <div class="about__logo"><img src="./images/logo-white.svg" alt="логотип" class="about__logo-picture"></div>
-        <div class="about__text">
-          <h2 class="section__title about__title">Об аукционе</h2>
-          <div class="about-description">
-            <p>Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
-          <p>Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря
-на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. </p>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <adress class="footer-adress">
-        <div class="adress__phone"><a href="tel:+99995555555" class="adress__phone-link">+9 999 555 5555</a></div>
-        <div class="adress__mail"><a href="mailto:info@sobaka.ge" class="adress__phone-mail">info@sobaka.ge</a></div>
-        <div class="adress__location">наб. Принсенграхт 263- 265, Амстердам</div> 
-      </adress>
-      <nav class="footer-nav">
-        <ul class="nav-list">
-          <li class="nav-item"><a href="" class="nav-link active">главная</a></li>
-          <li class="nav-item"><a href="" class="nav-link">посмотреть лоты</a></li>
-          <li class="nav-item"><a href="" class="nav-link">об аукционе</a></li>
-        </ul>
-      </nav>
-      <div class="footer-social">
-        <ul class="foter-social-list">
-          <li class="social-list__item"><a href="" class="social-item__link"><img src="./images/yt.svg" alt="youtube" class="social-item__picture"></a></li>
-          <li class="social-list__item"><a href="" class="social-item__link"><img src="./images/vk.svg" alt="vkontakte" class="social-item__picture"></a></li>
-          <li class="social-list__item"><a href="" class="social-item__link"><img src="./images/pinterest.svg" alt="pinterest" class="social-item__picture"></a></li>
-        </ul>
+
+    </section>
+    <section class="section-lots">
+      <h2 class="section__title lots__title">Лоты</h2>
+      <ul class="lots-list">
+        <li class="lots-list__card lots-list__card-film">
+          <div class="overlay"></div>
+          <a class="card__title">Фильм режиссёра, который бросил киношколу</a>
+          <article class="card__description">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если
+            бы вы не знали, что режиссёр — Пол Томас Андерсон?</article>
+        </li>
+        <li class="lots-list__card lots-list__card-book">
+          <div class="overlay"></div>
+          <a class="card__title">Книга, где описан один скучный день из жизни рекламного агента</a>
+          <article class="card__description">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
+            переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории
+            литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы
+            поставили на «Улисса» Джеймса Джойса?</article>
+        </li>
+        <li class="lots-list__card lots-list__card-paint">
+          <div class="overlay"></div>
+          <a class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</a>
+          <article class="card__description">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее
+            на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не
+            знали, что это — одна из революционных работ Кандинского?</article>
+        </li>
+      </ul>
+      <a href="#" class="section-lots__more">посмотреть больше</a>
+    </section>
+    <section class="section-about">
+      <div class="about__logo">
+        <img src="./images/logo-white.svg" alt="логотип" class="about__logo-picture">
       </div>
-    </footer>
-  </body>
+      <div class="about__text">
+        <h2 class="section__title about__title">Об аукционе</h2>
+        <div class="about-description">
+          <p>Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не
+            должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую
+            может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
+          <p>Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные
+            критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря
+            на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную
+            культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали
+            культовыми. </p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <adress class="footer-adress">
+      <div>
+        <a href="tel:+99995555555">+9 999 555 5555</a>
+      </div>
+      <div>
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+      </div>
+      <div>наб. Принсенграхт 263- 265, Амстердам</div>
+    </adress>
+    <nav class="footer-nav">
+      <ul class="nav-list">
+        <li>
+          <a href="#" class="nav-link active">главная</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">посмотреть лоты</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">об аукционе</a>
+        </li>
+      </ul>
+    </nav>
+      <ul class="foter-social-list">
+        <li>
+          <a href="#">
+            <img src="./images/yt.svg" alt="youtube">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/vk.svg" alt="vkontakte">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/pinterest.svg" alt="pinterest">
+          </a>
+        </li>
+      </ul>
+  </footer>
+</body>
 </html>
