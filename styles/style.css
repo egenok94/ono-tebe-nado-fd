@@ -114,6 +114,8 @@
 
 .section-lots {
   margin-bottom: 120px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .lots__title {
@@ -178,6 +180,8 @@
   display: grid;
   grid-template-columns: 334px auto;
   margin-bottom: 180px;
+  margin-left: 24px;
+  margin-right:24px;
 }
 
 .about__logo {
